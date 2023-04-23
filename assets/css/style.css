@@ -1,0 +1,262 @@
+@font-face {
+  font-family: 'rick';
+  src: url('/assets/css/font/rick.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  padding-bottom: 50px;
+  font-family: 'rick', sans-serif;
+  background-image: url('/assets/img/background.jpg');
+  background-color: black;
+  background-repeat: repeat;
+  
+}
+
+
+
+
+h1 {
+  color: rgb(2, 5, 0);
+}
+
+.header_logo {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/assets/img/background.jpg');
+  
+  background-repeat: repeat;
+}
+
+.header_logo img {
+  height: 25vh;
+}
+
+.header_infos {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0.5, 0, 0.4, 1)), url("/assets/img/banner.jpg");  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+}
+.header_infos h1 {
+  color: #ffffff;
+  font-family: "rick", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+.header_infos p {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  max-width: 68%;
+  margin-left: 150px;
+}
+
+main {
+  padding-left: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main_nav {
+  display: flex;
+  height: 20vh;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.main_nav h3 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #58ce13;
+  
+}
+
+.main_nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.main_nav ul li {
+  color: #58ce13;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  height: 60px;
+  width: 230px;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+}
+
+.main_nav ul li:hover {
+  background-color: #ffffff;
+  color: #58ce13;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.main_nav ul li:active {
+  background-color: #e5e5e5;
+}
+
+.main_vitrine {
+  width: 100%;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color:rgb(2, 5, 0);
+}
+
+.main_card {
+  width: 90%;
+  height: auto;
+  height: 350px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(88, 175, 7)), url("/assets/img/seasons.jpg");  background-size: cover;
+  background-size: cover;
+  
+}
+
+.main_card_top {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  color: #000000;
+  margin-left: 30px;
+}
+.main_card_top h2 {
+  font-size: 40px;
+  font-family: "rick";
+}
+.main_card_top span {
+  font-size: 28px;
+}
+
+.main_card_bottom {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  color: #000000;
+  margin-left: 30px;
+  
+}
+.main_card_bottom p {
+  font-size: 22px;
+  max-width: 70%;
+  margin-bottom: 50px;
+}
+.main_card_bottom button {
+  font-size: 22px;
+  margin-bottom: 60px;
+  border: none;
+  background-color: transparent;
+  color: #0f0000;
+  border: 2px solid #ffffff;
+  border-radius: 52px;
+  border-color: #000000;
+
+
+  
+}
+.main_card_bottom button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: 0.2s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main_left {
+  width: 70%;
+}
+
+.main_playlist {
+  width: 30%;
+  height: 600px;
+  
+
+}
+.main_playlist h3 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #58ce13;
+  margin-bottom: 30px;
+  margin-top: 60px;
+
+}
+
+.playlist_li {
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  align-items: center;
+}
+.playlist_li img {
+  height: 95%;
+  width: auto;
+  margin-right: 10px;
+}
+.playlist_li_center {
+  width: 50%;
+}
+.playlist_li_center div h4 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  color: #58ce13;
+  font-weight: bold;
+}
+.playlist_li_center div span {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #58ce13;
+
+}
+.playlist_li_playButton {
+  display: flex;
+  height: 50%;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.playlist_li_playButton img {
+  height: 30px;
+  margin-right: 10px;
+}
+.playlist_li_end {
+  width: 25%;
+  height: 100%;
+  display: flex;
+}
+.playlist_li_end button {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  background-color: transparent;
+  background-image: url("../img/trash-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+} 
+
+.playlist_li_end button:hover {
+  cursor: pointer;
+}
